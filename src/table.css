@@ -1,0 +1,26 @@
+table {
+  text-align: left;
+}
+
+input {
+  border: 1px solid transparent;
+  width: 5ch;
+  background-color: rgba(0, 102, 255, 0.1);
+  border-radius: 3px;
+}
+
+input:hover {
+  border: 1px solid rgb(163, 163, 163);
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
